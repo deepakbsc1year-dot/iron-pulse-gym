@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Iron Pulse Fitness — a welcoming gym for strength training, personal coaching and group fitness.">
+
+    <title>Iron Pulse Fitness | Train With Purpose</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo">
+                IRON<span>PULSE</span><small> FITNESS CLUB</small>
+            </a>
+
+            <button class="menu-btn" id="menuBtn"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+    <a href="#contact" class="nav-cta">JOIN US &#8599;</a>
+</li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <p class="eyebrow">
+                    <span class="red-line"></span>
+                    YOUR FITNESS. YOUR JOURNEY.
+                </p>
+
+                <h1>
+                    BUILT BY<br>
+                    <span>DISCIPLINE.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Train with purpose. Build healthy habits.
+                    Discover what consistent effort can do.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#plans" class="btn btn-primary">
+                        EXPLORE PLANS <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="btn btn-outline">
+                        DISCOVER OUR GYM
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="status-dot"></span>
+                    A WELCOMING SPACE FOR EVERY FITNESS LEVEL
+                </div>
+
+            </div>
+
+            <div class="hero-number">01 / TRAIN WITH PURPOSE</div>
+
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container stats-grid">
+
+                <div class="stat-item">
+                    <h2>01<span>—</span></h2>
+                    <p>YOUR STARTING POINT</p>
+                </div>
+
+                <div class="stat-item">
+                    <h2>100<span>%</span></h2>
+                    <p>FOCUS ON YOUR PROGRESS</p>
+                </div>
+
+                <div class="stat-item">
+                    <h2>ALL<span>+</span></h2>
+                    <p>FITNESS LEVELS WELCOME</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=85"
+                        alt="Gym training equipment and workout area"
+                        loading="lazy">
+
+                    <div class="image-label">
+                        <span class="label-number">IP.</span>
+                        <span>SHOW UP. KEEP GOING.</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+
+                    <p class="eyebrow">
+                        <span class="red-line"></span>
+                        ABOUT IRON PULSE
+                    </p>
+
+                    <h2 class="section-title">
+                        MORE THAN<br>
+                        <span>A WORKOUT.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        Fitness is about more than lifting weights.
+                        It is about building consistent habits,
+                        learning good technique and making time
+                        for your wellbeing.
+                    </p>
+
+                    <p class="section-description">
+                        Iron Pulse is designed as a supportive space
+                        where beginners and experienced gym-goers
+                        can work towards their own goals.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        COME MEET US <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Services Section -->
+        <section class="section services" id="services">
+
+            <div class="container">
+
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">
+                            <span class="red-line"></span>
+                            TRAIN YOUR WAY
+                        </p>
+
+                        <h2 class="section-title">
+                            WHAT WE <span>OFFER.</span>
+                        </h2>
+                    </div>
+
+                    <p class="section-description section-header-text">
+                        Find a training style that fits your goals,
+                        experience and routine.
+                    </p>
+                </div>
+
+                <div class="service-grid">
+
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=85"
+                                alt="Strength training with gym equipment"
+                                loading="lazy">
+                            <span class="service-number">01</span>
+                        </div>
+
+                        <div class="service-content">
+                            <p class="service-tag">BUILD YOUR FOUNDATION</p>
+                            <h3>Strength Training</h3>
+                            <p>
+                                Learn the fundamentals of strength
+                                training with suitable equipment
+                                and a focus on good technique.
+                            </p>
+                            <a href="#contact" class="card-link">
+                                LEARN MORE ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=85"
+                                alt="Personal fitness coaching session"
+                                loading="lazy">
+                            <span class="service-number">02</span>
+                        </div>
+
+                        <div class="service-content">
+                            <p class="service-tag">PERSONAL GUIDANCE</p>
+                            <h3>Personal Training</h3>
+                            <p>
+                                Get individual guidance to help you
+                                understand exercises and follow
+                                a routine that suits your needs.
+                            </p>
+                            <a href="#contact" class="card-link">
+                                LEARN MORE ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=85"
+                                alt="Group fitness training session"
+                                loading="lazy">
+                            <span class="service-number">03</span>
+                        </div>
+
+                        <div class="service-content">
+                            <p class="service-tag">TRAIN TOGETHER</p>
+                            <h3>Group Fitness</h3>
+                            <p>
+                                Enjoy a motivating group environment
+                                and structured activities that make
+                                movement more enjoyable.
+                            </p>
+                            <a href="#contact" class="card-link">
+                                LEARN MORE ↗
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Quote Banner -->
+        <section class="quote-banner">
+            <div class="container quote-content">
+
+                <p class="eyebrow">
+                    YOUR NEXT CHAPTER STARTS HERE
+                </p>
+
+                <h2>
+                    SMALL STEPS.<br>
+                    <span>STRONG HABITS.</span>
+                </h2>
+
+                <a href="#contact" class="btn btn-primary">
+                    TAKE THE FIRST STEP ↗
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Plans Section -->
+        <section class="section plans" id="plans">
+
+            <div class="container">
+
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">
+                            <span class="red-line"></span>
+                            MEMBERSHIP OPTIONS
+                        </p>
+
+                        <h2 class="section-title">
+                            FIND YOUR <span>PLAN.</span>
+                        </h2>
+                    </div>
+
+                    <p class="section-description section-header-text">
+                        Choose a starting option and contact us
+                        for current pricing and availability.
+                    </p>
+                </div>
+
+                <div class="plan-grid">
+
+                    <article class="plan-card">
+                        <p class="plan-label">01 / GET STARTED</p>
+                        <h3>Basic</h3>
+
+                        <p class="plan-description">
+                            For people beginning their fitness journey.
+                        </p>
+
+                        <ul>
+                            <li>Access to gym facilities</li>
+                            <li>Strength equipment</li>
+                            <li>Beginner-friendly environment</li>
+                        </ul>
+
+                        <a href="#contact" class="btn btn-outline plan-btn">
+                            ASK ABOUT THIS PLAN
+                        </a>
+                    </article>
+
+                    <article class="plan-card featured-plan">
+                        <span class="popular-badge">FEATURED</span>
+
+                        <p class="plan-label">02 / BUILD YOUR ROUTINE</p>
+                        <h3>Standard</h3>
+
+                        <p class="plan-description">
+                            For members looking for a regular routine.
+                        </p>
+
+                        <ul>
+                            <li>Gym facilities</li>
+                            <li>Equipment orientation</li>
+                            <li>Guidance on exercise technique</li>
+                        </ul>
+
+                        <a href="#contact" class="btn btn-primary plan-btn">
+                            ASK ABOUT THIS PLAN
+                        </a>
+                    </article>
+
+                    <article class="plan-card">
+                        <p class="plan-label">03 / EXTRA GUIDANCE</p>
+                        <h3>Personal</h3>
+
+                        <p class="plan-description">
+                            For members interested in individual coaching.
+                        </p>
+
+                        <ul>
+                            <li>Individual coaching enquiry</li>
+                            <li>Goal-focused guidance</li>
+                            <li>Personalised session discussion</li>
+                        </ul>
+
+                        <a href="#contact" class="btn btn-outline plan-btn">
+                            ASK ABOUT THIS PLAN
+                        </a>
+                    </article>
+
+                </div>
+
+                <p class="plan-disclaimer">
+                    Demo membership options only. Actual services,
+                    prices and availability must be confirmed by the gym.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+
+                    <p class="eyebrow">
+                        <span class="red-line"></span>
+                        LET'S CONNECT
+                    </p>
+
+                    <h2 class="section-title">
+                        READY TO<br>
+                        <span>GET STARTED?</span>
+                    </h2>
+
+                    <p class="section-description">
+                        Have questions about memberships or training?
+                        Send us a message and start the conversation.
+                    </p>
+
+                    <div class="contact-detail">
+                        <span class="contact-icon">01</span>
+                        <div>
+                            <h3>VISIT OUR GYM</h3>
+                            <p>Replace this with the real gym address.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="contact-icon">02</span>
+                        <div>
+                            <h3>CALL US</h3>
+                            <p>Replace this with the real phone number.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="contact-icon">03</span>
+                        <div>
+                            <h3>OPENING HOURS</h3>
+                            <p>Add the gym's confirmed opening hours.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <form class="contact-form" id="contactForm">
+
+                    <h3>SEND AN ENQUIRY</h3>
+
+                    <p class="form-description">
+                        Fill in your details to prepare an enquiry.
+                    </p>
+
+                    <div class="form-group">
+                        <label for="name">Your name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            autocomplete="name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="interest">Interested in</label>
+                        <select id="interest" name="interest" required>
+                            <option value="">Choose an option</option>
+                            <option value="Basic membership">Basic membership</option>
+                            <option value="Standard membership">Standard membership</option>
+                            <option value="Personal training">Personal training</option>
+                            <option value="Group fitness">Group fitness</option>
+                            <option value="General enquiry">General enquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="How can we help you?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        PREPARE ENQUIRY ↗
+                    </button>
+
+                    <p class="form-note">
+                        Demo form: this prepares an email in your email app.
+                        It does not store or send information to a server.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                IRON<span>PULSE</span><small> FITNESS CLUB</small>
+            </a>
+
+            <p>Train with purpose. Build healthy habits.</p>
+
+            <a href="#home" class="back-to-top">BACK TO TOP ↑</a>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© <span id="year">2026</span> Iron Pulse Fitness. Demo website.</p>
+            <p>Designed as a website portfolio project.</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
